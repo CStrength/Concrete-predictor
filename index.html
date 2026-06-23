@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Concrete AI Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Concrete Strength Predictor</h1>
+    <p class="subtitle">
+      AI-assisted estimation of compressive strength (MPa)
+    </p>
+
+    <div class="grid">
+
+      <input id="cement" placeholder="Cement (kg/m³)">
+      <input id="water" placeholder="Water (kg/m³)">
+      <input id="slag" placeholder="Slag (kg/m³)">
+      <input id="flyash" placeholder="Fly Ash (kg/m³)">
+      <input id="sp" placeholder="Superplasticizer">
+      <input id="coarse" placeholder="Coarse Aggregate">
+      <input id="fine" placeholder="Fine Aggregate">
+      <input id="age" placeholder="Age (days)">
+
+    </div>
+
+    <button onclick="predict()">Predict Strength</button>
+
+    <div id="result"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
