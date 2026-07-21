@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- Description for Google Search results -->
+  <!-- Description shown in Google Search results -->
   <meta name="description" content="An AI-assisted concrete strength predictor. Estimate compressive strength in MPa based on your mix design proportions, additives, and curing age.">
   
   <title>Concrete AI Predictor</title>
@@ -20,47 +20,47 @@
       AI-assisted estimation of compressive strength (MPa)
     </p>
 
-    <!-- In-depth Web Description -->
+    <!-- Cleaned Web Description -->
     <p class="description">
       This tool uses mix design ratios to estimate the compressive strength (MPa) of hardened concrete. 
-      Input your mix components (kg/m³), superplasticizer dosage, and curing duration below to compute the expected structural strength.
+      Input your mix components in kilograms per cubic meter (kg/m³), superplasticizer dosage, and curing age below to compute the expected structural strength.
     </p>
 
-    <!-- Predictor Inputs -->
+    <!-- Input Form -->
     <div class="grid">
 
       <div class="input-group">
-        <label for="cement">Cement ($\text{kg/m}^3$)</label>
+        <label for="cement">Cement (kg/m³)</label>
         <input id="cement" placeholder="e.g. 540">
       </div>
 
       <div class="input-group">
-        <label for="water">Water ($\text{kg/m}^3$)</label>
+        <label for="water">Water (kg/m³)</label>
         <input id="water" placeholder="e.g. 162">
       </div>
 
       <div class="input-group">
-        <label for="slag">Blast Furnace Slag ($\text{kg/m}^3$)</label>
+        <label for="slag">Blast Furnace Slag (kg/m³)</label>
         <input id="slag" placeholder="e.g. 0">
       </div>
 
       <div class="input-group">
-        <label for="flyash">Fly Ash ($\text{kg/m}^3$)</label>
+        <label for="flyash">Fly Ash (kg/m³)</label>
         <input id="flyash" placeholder="e.g. 0">
       </div>
 
       <div class="input-group">
-        <label for="sp">Superplasticizer ($\text{kg/m}^3$)</label>
+        <label for="sp">Superplasticizer (kg/m³)</label>
         <input id="sp" placeholder="e.g. 2.5">
       </div>
 
       <div class="input-group">
-        <label for="coarse">Coarse Aggregate ($\text{kg/m}^3$)</label>
+        <label for="coarse">Coarse Aggregate (kg/m³)</label>
         <input id="coarse" placeholder="e.g. 1040">
       </div>
 
       <div class="input-group">
-        <label for="fine">Fine Aggregate ($\text{kg/m}^3$)</label>
+        <label for="fine">Fine Aggregate (kg/m³)</label>
         <input id="fine" placeholder="e.g. 676">
       </div>
 
@@ -75,9 +75,9 @@
 
     <div id="result"></div>
 
-    <!-- Educational Breakdown Section -->
     <hr class="divider">
 
+    <!-- Cleaned Educational Section -->
     <div class="info-section">
       <h2>How Concrete Mix Design Impacts Strength</h2>
       
@@ -86,14 +86,14 @@
         <p class="img-caption">Hydraulic testing machine evaluating standard 28-day concrete cylinder strength.</p>
       </div>
 
-      <h3>1. Water-to-Binder Ratio ($w/b$)</h3>
+      <h3>1. Water-to-Binder Ratio (w/b)</h3>
       <p>
-        The water-to-binder ratio is the single most critical factor determining strength. Lowering the water content relative to total cementitious material increases density, reduces capillary porosity, and significantly boosts compressive strength.
+        The water-to-binder ratio (w/b) is the single most critical factor determining concrete strength. Lowering the water content relative to total cementitious materials reduces capillary porosity, creating a denser micro-structure and significantly boosting compressive strength.
       </p>
 
       <h3>2. Supplementary Cementitious Materials (SCMs)</h3>
       <p>
-        Adding <strong>Slag</strong> or <strong>Fly Ash</strong> replaces part of the Portland cement. While early-age (3–7 day) strength may develop slightly slower, SCMs undergo pozzolanic reactions that produce additional calcium silicate hydrate ($\text{C-S-H}$) gel, improving long-term 28-day and 90-day durability.
+        Adding ground granulated blast-furnace slag or fly ash replaces a portion of the Portland cement. While early-age (3–7 day) strength may develop slightly slower, SCMs undergo pozzolanic reactions that produce additional calcium silicate hydrate (C-S-H) gel, improving long-term 28-day and 90-day durability and ultimate strength.
       </p>
 
       <div class="image-wrapper">
@@ -103,7 +103,7 @@
 
       <h3>3. Superplasticizers & Admixtures</h3>
       <p>
-        High-range water reducers (superplasticizers) increase fluid workability without needing extra water. This allows for dense, low $w/b$ ratios that retain high slump values while achieving target compressive strength.
+        High-range water reducers (superplasticizers) increase fluid workability without requiring extra mixing water. This allows for low w/b ratios that achieve high compressive strength while maintaining the necessary slump for placement.
       </p>
     </div>
 
